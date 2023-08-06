@@ -90,3 +90,26 @@
   background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
   filter: blur(4.5rem);
 }
+
+.dev {
+  display: inline-block;
+  background-image: linear-gradient(120deg, #35c37f 50%, #0f0713);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.titans {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
