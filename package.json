@@ -1,0 +1,21 @@
+{
+  "name": "vite-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/vite-template/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.5",
+    "glob": "^8.1.0"
+  },
+  "author": "Viktor Svertoka <victor.svertoka@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
+}
