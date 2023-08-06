@@ -103,8 +103,9 @@
 }
 
 .container {
+  width: 86vw;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 20px;
 }
 
 .titans {
