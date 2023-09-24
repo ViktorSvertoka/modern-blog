@@ -1,11 +1,11 @@
 {
-  "name": "vite-template",
+  "name": "vite-template-html5-css3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vite-template/",
+    "build": "vite build --base=/vite-template-html5-css3/",
     "preview": "vite preview"
   },
   "devDependencies": {
