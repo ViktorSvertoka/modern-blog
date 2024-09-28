@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
@@ -8,12 +9,7 @@ const Header = () => {
         Sanity Blog
       </Link>
 
-      <nav>
-        <ul className="flex gap-4">
-          <li className="hover:underline cursor-pointer">About</li>
-          <li className="hover:underline cursor-pointer">Contact</li>
-        </ul>
-      </nav>
+      <Navbar />
     </header>
   );
 };
